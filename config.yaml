@@ -1,0 +1,11 @@
+base_model_name: "70B-Llama-3.1-Base"
+input_model_path: "~/my-scripts/download-hf-model/models/meta-llama_Meta-Llama-3.1-70B"
+output_base_path: "/mnt/d/exl2-converted"
+hf_username: "NobodySpecial"
+default_hb: 8
+exllama_path: "~/exllamav2"
+
+quantizations:
+  - bpw: 5.0
+  - bpw: 6.0
+  - bpw: 8.0
